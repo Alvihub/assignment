@@ -46,7 +46,9 @@
     border-radius:5px;
     background: #fd6e0a ;
 }
+
 /* main section[about] */
+ 
 .main .about{
     background-image:url("images/person.png") ;
     background-repeat: no-repeat;
@@ -153,6 +155,8 @@
 
     }
           /* contact-section */
+         
+         
           .contact-section{
             background: #151414;
 
@@ -193,10 +197,10 @@
             margin-bottom: 32px;
             color: #FFFFFF;
           }
-          ul ,li{
+          
             
             
-          }
+          
           nav,p{
             display:flex;
             
