@@ -5,7 +5,9 @@
 }
 
 .banner{
-    background: url("images/banner/banner1.png");
+    position: relative;
+  text-align: center;
+  
     background-size: cover;
     background-position: top;
     
@@ -14,13 +16,25 @@
 .banner .banner-blog{
     text-align: right;
     position: absolute;
-  
-}
+     top:216px;
+     right:363px;
+  }
 .banner-title{
     font-weight: 700;
     font-size: 65px;
     color: #151414;
     text-align: right;
+    margin-bottom: 24px;
+    padding-left: 50%;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+    padding-left: 60%;
+    line-height: 26px;
 }
 .btn-primary{
     color:#ffffff;
@@ -60,7 +74,7 @@
  div .list{
     margin-bottom: 10px;
  }
-i{
+ i{
     color: green;
 }
      /* plan section */
@@ -126,12 +140,14 @@ i{
             font-size: 16px;
             margin-bottom: 24px;
             color: #FFFFFF;
+            padding-right: 40%;
           }
           .contact .contact-email{
             font-weight: 400;
             font-size: 16px;
-            margin-bottom: 16px;
+            margin-bottom: 26px;
             color: #FFFFFF;
+            text-decoration: none;
           }
           .contact .contact-phone{
             font-weight: 400;
@@ -140,9 +156,9 @@ i{
             color: #FFFFFF;
           }
           ul ,li{
-            display: flex;
+            display:flex;
             list-style: none;
-            text-align: left;
+            align-items: left;
             
           }
 
@@ -151,5 +167,27 @@ i{
             font-size: 25px;
             margin-bottom: 31px;
             color: #FFFFFF;
+
+          }
+          input[type= "email"]{
+            font-weight: 400;
+            font-size: 18px;
+            margin-bottom: 16px;
+            border: 1 ;
+            color: #F3F3F3;
+            padding-left: 21px;
+            width: 325px;
+           height: 64px;
+            background: #151414;
+            border-radius: 10px;
+          }
+          input[type= "subscribe"]{
+            font-weight: 600;
+            font-size: 20px;
+            color: #F15B22;
+            width: 170.11px;
+            height: 64px;
+            border-radius: 10px;
+            text-align: center;
 
           }
