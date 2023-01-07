@@ -1,0 +1,155 @@
+/* header[banner] */
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner{
+    background: url("images/banner/banner1.png");
+    background-size: cover;
+    background-position: top;
+    
+
+}
+.banner .banner-blog{
+    text-align: right;
+    position: absolute;
+  
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    text-align: right;
+}
+.btn-primary{
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border:0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius:5px;
+    background: #fd6e0a ;
+}
+/* main section[about] */
+.main .about{
+    background-image:url("images/person.png") ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 87px;
+    margin-top:130px ;
+    margin-left: 206px;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+    margin-right: 450px;
+}
+.about-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+    margin-right: 322px;
+}
+ div .list{
+    margin-bottom: 10px;
+ }
+i{
+    color: green;
+}
+     /* plan section */
+     .plan-section{
+        margin: 130px;
+     }
+
+      .section-title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        color: #151414;
+        margin-bottom: 60px;
+      }
+
+     .total-plans{
+        display: flex;
+        justify-content: space-around;
+     }
+     .plan-section.plan{
+        align-items: center;
+        
+     }
+     .plan-title{
+        font-weight: 700;
+        font-size: 30px; 
+        color: #151414;
+        margin-top: 24px;
+        margin-bottom: 16px;
+        text-align: center;
+     }  
+     .plan-sub-title{
+     font-weight: 500;
+     font-size: 25px;
+     color: #737272;
+     text-align: center;
+     }
+      .plan ,img{
+     text-align: center;
+     }
+          /* contact-section */
+          .contact-section{
+            background: #151414;
+
+          }
+          .contact-information{
+            display: flex;
+            padding:130px 230px;
+            gap: 330px;
+            justify-content: space-between;
+            
+
+          }
+          .contact .contact-title{
+            font-weight: 700;
+            font-size: 45px;
+            margin-bottom: 16px;
+            color: #FFFFFF;
+            
+          }
+          .contact .contact-description{
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 24px;
+            color: #FFFFFF;
+          }
+          .contact .contact-email{
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 16px;
+            color: #FFFFFF;
+          }
+          .contact .contact-phone{
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 32px;
+            color: #FFFFFF;
+          }
+          ul ,li{
+            display: flex;
+            list-style: none;
+            text-align: left;
+            
+          }
+
+          .contact-end .contact-title{
+            font-weight: 600;
+            font-size: 25px;
+            margin-bottom: 31px;
+            color: #FFFFFF;
+
+          }
