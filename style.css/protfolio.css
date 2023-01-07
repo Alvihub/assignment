@@ -17,7 +17,7 @@
     text-align: right;
     position: absolute;
      top:216px;
-     right:363px;
+     right:230px;
   }
 .banner-title{
     font-weight: 700;
@@ -115,6 +115,43 @@
       .plan ,img{
      text-align: center;
      }
+
+
+     /* <!-- positive mindset section --> */
+
+    .positive{
+      background-image: url("../images/gradient2.png"),url("../images/watch.png");
+      background-repeat:no-repeat;
+      width:60%;
+      height: 300px;
+      margin:130px auto;
+      display: flex;
+      align-items: center;
+    
+    }
+    .positive-text{
+      padding-left:  64px;
+
+    }
+
+    .positive-title{
+      font-weight: 700;
+      font-size: 40px;
+      color: #FFFFFF;
+      margin-bottom: 24px;
+     padding-right: 20%;
+    }
+     
+    .btn-call{
+      font-weight: 600;
+      font-size: 20px;
+      color: #F15B22;
+      width: 160px;
+      height: 64px;
+      border-radius: 5px;
+      border: 0;
+
+    }
           /* contact-section */
           .contact-section{
             background: #151414;
@@ -152,14 +189,20 @@
           .contact .contact-phone{
             font-weight: 400;
             font-size: 16px;
+            margin-top: 10px;
             margin-bottom: 32px;
             color: #FFFFFF;
           }
           ul ,li{
-            display:flex;
-            list-style: none;
-            align-items: left;
             
+            
+          }
+          nav,p{
+            display:flex;
+            
+            align-items: left;
+            gap:10px;
+
           }
 
           .contact-end .contact-title{
@@ -172,7 +215,6 @@
           input[type= "email"]{
             font-weight: 400;
             font-size: 18px;
-            margin-bottom: 16px;
             border: 1 ;
             color: #F3F3F3;
             padding-left: 21px;
@@ -180,6 +222,8 @@
            height: 64px;
             background: #151414;
             border-radius: 10px;
+            margin-bottom: 16px;
+
           }
           input[type= "subscribe"]{
             font-weight: 600;
